@@ -1,0 +1,58 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 2rem;
+}
+.navbar-links_logo{
+    margin-right: 2rem;
+}
+.navbar-link{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar-links_logo img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.hmcontainer{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Arial", sans-serif;
+    flex:1;
+    
+    
+}
+.hmcontainer p{
+    color: aliceblue;
+    margin-right: 90px;
+    font-family: "Arial", sans-serif;
+    font-weight: 10;
+    font-size: 18px;
+    
+}
+
+.alin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Change to flex-start */
+    align-items: center; /* Add align-items property to center vertically */
+    
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: aliceblue;
+  
+  }
+
+  h1{
+    color: rgb(122, 189, 15);
+  }
+  
