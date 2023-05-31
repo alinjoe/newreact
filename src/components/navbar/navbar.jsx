@@ -7,6 +7,9 @@ import img from '../../source/IMG_20220705_211027.jpg';
 
 
 
+
+
+
 const Navbar = () => {
   return (
     <div className='navbar'>

@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    z-index: 2;
 
     padding: 2rem 2rem;
 }
@@ -12,6 +14,7 @@
 .navbar-link{
     flex: 1;
     display: flex;
+    margin-left: 50px;
     justify-content: flex-start;
 }
 .navbar-links_logo img {
@@ -36,6 +39,7 @@
     font-family: "Arial", sans-serif;
     font-weight: 10;
     font-size: 18px;
+    z-index: 2;
     
 }
 

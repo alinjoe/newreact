@@ -1,0 +1,55 @@
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+    background-color: black;
+  }
+  
+  .text {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #FBF3F3;
+    margin-left: auto;
+    margin-right: 15em;
+    position: relative; /* Add position property for z-index to work */
+    z-index: 2;
+  }
+
+  
+  .text p {
+    margin: 0; /* Remove default margins */
+    line-height: 1; /* Ensure single line */
+  }
+  
+  .brandlogo {
+    margin-right: 80px;
+  }
+  
+  @media (max-width: 768px) {
+    .brandlogo {
+      margin-right: 20px;
+    }
+  
+    .text {
+      margin-right: 0;
+    }
+  }
+  .gradient-background {
+    position: absolute;
+    left: 0.17%;
+    right: 62.98%;
+    top: 0%;
+    bottom: 43.71%;
+    background: linear-gradient(rgba(1, 183, 255, 0.5), rgba(1, 183, 255, 0.5)), url('./ben-sweet-2LowviVHZ-E-unsplash 1.png');
+    filter: blur(100px);
+  }
+  .brandlogo img {
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
