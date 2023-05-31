@@ -3,7 +3,7 @@ import './braand.css'
 const Brand = () => {
   return (
     <div>
-      hellohhhhhhhhhhhhh
+      <p>welcome to my portfolio</p>
     </div>
   )
 }
