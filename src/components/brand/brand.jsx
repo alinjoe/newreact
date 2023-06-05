@@ -6,12 +6,17 @@ const Brand = () => {
   return (
     <div className="welcome">
       <div className="gradient-background"></div>
-      <div className="text">
-        <p>welcome to my</p>
-        <p>portfolio</p>
+      <div className="content">
+        <div className="text">
+          <p>welcome to my</p>
+          <p>portfolio</p>
+        </div>
+        <div className="brandlogo">
+          <img src={imge} alt="Logo" />
+        </div>
       </div>
-      <div className="brandlogo">
-        <img src={imge} alt="Logo" />
+      <div className="but">
+        <button className="get-in-touch-button">Get in touch</button>
       </div>
     </div>
   );

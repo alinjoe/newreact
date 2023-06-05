@@ -18,7 +18,7 @@ const Navbar = () => {
           <img src={img} alt="Logo" />
         </div>
         <div className='alin'>
-        <p><a href="#alin">ALINJOE</a></p>
+        <p><a href="#alin">ALIN JOE</a></p>
         </div>
 
         <div className='hmcontainer'>
