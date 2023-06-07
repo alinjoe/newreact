@@ -1,0 +1,47 @@
+.fea{
+    color: aliceblue;
+    font-family: "Arial", sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    padding-top: 2rem;
+    font-weight: 200;
+
+}
+.fe{
+    display: flex;
+    
+    padding-left: 8rem;
+}
+.fe {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .logoda{
+    display: flex;
+    width: 1620px;
+    height: 96px;
+    background: linear-gradient(90.42deg, #9CA4A7 0.01%, #02B7FF 100%, rgba(90, 123, 148, 0) 100%, #01131B 100%);
+    border-radius: 30px;
+    margin: 30px;
+    padding-left: 7rem;
+    
+    align-items: center;
+  }
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .social-links p{
+    color: aliceblue;
+    margin-right: 90px;
+    font-family: "Arial", sans-serif;
+    font-weight: 10;
+    font-size: 18px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }

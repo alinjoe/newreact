@@ -6,6 +6,7 @@
   width: 100%;
   padding: 40px;
   background-color: black;
+  padding-top: 8rem;
 }
 
 .content {
@@ -23,6 +24,7 @@
   margin-right: 15em;
   position: relative; /* Add position property for z-index to work */
   z-index: 2;
+  padding-top: -10rem;
 }
 
 .text p {
@@ -72,21 +74,20 @@
   padding: 12px 24px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
-  margin-top: 20px;
-  
+  margin-left: -50rem;
+  margin-top: -60px;
+  z-index: 6;
  
 }
 
 .but {
   display: flex;
-  justify-content: flex-start;
-  margin-top: 20px;
+  
 }
 
 .get-in-touch-button {
-  align-self: flex-start;
-  margin-left: 0;
+  
+  position: absolute;
 }
 
 
